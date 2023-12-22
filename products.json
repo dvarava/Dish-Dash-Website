@@ -1,12 +1,37 @@
 [
   {
     "name": "Product 1",
-    "image": "banner.jpg",
+    "image": "images/banner.jpg",
     "price": "$19.99"
   },
   {
     "name": "Product 2",
-    "image": "banner.jpg",
+    "image": "images/banner.jpg",
+    "price": "$29.99"
+  },
+  {
+    "name": "Product 3",
+    "image": "images/banner.jpg",
+    "price": "$29.99"
+  },
+  {
+    "name": "Product 4",
+    "image": "images/banner.jpg",
+    "price": "$29.99"
+  },
+  {
+    "name": "Product 5",
+    "image": "images/banner.jpg",
+    "price": "$29.99"
+  },
+  {
+    "name": "Product 6",
+    "image": "images/banner.jpg",
+    "price": "$29.99"
+  },
+  {
+    "name": "Product 7",
+    "image": "images/banner.jpg",
     "price": "$29.99"
   }
 ]
