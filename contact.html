@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="contact, Sligo, Ireland, kitchenware, cookware, kitchen tools">
+    <meta name="description" content="At DishDash, we're not just a store for kitchen stuff. Our trip started with a love for really good food experiences. Dive into our story, where dedication meets skill. Find out how we are dedicated to getting the best ingredients, encouraging new ideas and motivating people who love cooking all over the world. Find out what our brand is all about and come with us to enjoy the skill of cooking.">
+    <title>Contact Us - DishDash</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="styles/styles.css"/>
   </head>
   <body>
     <header>
-        <div class="navbar navbar-expand-lg navbar-light primary-background py-4">
-          <div class="container">
-            <a class="navbar-brand me-lg-auto" href="index.html">
-              <img src="images/logo.png" alt="Logo" height="30" />
-            </a>
-        
-            <ul class="navbar-nav flex-row flex-lg-row align-items-center gap-3">
+      <div class="navbar navbar-expand-lg navbar-light primary-background py-4">
+        <div class="container">
+          <a class="navbar-brand me-lg-auto" href="index.html">
+            <img src="images/logo.png" alt="Logo" height="30" />
+          </a>
+          
+          <ul class="navbar-nav flex-row flex-lg-row align-items-center gap-3">
+            <li class="nav-item">
+              <a class="nav-link custom-text" id="loginlogout" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="userdetails" href="userdetails.html">
+                <i class="bi bi-person-circle custom-text fs-5"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html">
+                <button type="button" class="btn custom-btn">
+                  <i class="bi bi-cart text-white"></i><span class="badge badge-light" id="checkout"></span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg secondary-background py-1">
+        <div class="container">
+          <p class="navbar-brand d-lg-none d-xl-none text-white m-0">Contact</p>
+
+          <button class="navbar-toggler d-lg-none d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link custom-text" id="loginlogout" href="login.html">Login</a>
+                <a class="nav-link active text-white" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="userdetails" href="userdetails.html">
-                  <i class="bi bi-person-circle custom-text fs-5"></i>
-                </a>
+                <a class="nav-link active text-white" href="shop.html">SHOP</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="checkout.html">
-                  <button type="button" class="btn custom-btn">
-                    <i class="bi bi-bag-check text-white"></i> <span class="badge badge-light" id="checkout"></span>
-                  </button>
-                </a>
+                <a class="nav-link active text-white" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="about-us.html">ABOUT US</a>
               </li>
             </ul>
           </div>
         </div>
-        
-  
-        <nav class="navbar navbar-expand-lg secondary-background py-1">
-          <div class="container">
-            <a class="navbar-brand d-lg-none d-xl-none text-white" href="index.html">Shop</a>
-  
-            <button
-              class="navbar-toggler d-lg-none d-xl-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active text-white" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" href="shop.html">SHOP</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" href="contact.html">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      </nav>
     </header>
 
     <main>
@@ -101,46 +90,37 @@
         </section>
     </main>
 
-
     <footer>
-        <div class="container p-4">
-          <div class="row">
-            <div class="col-md-6 col-lg-5">
-              <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250144.31665643423!2d-0.24168189196612386!3d51.528771841624445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e1b8f0771b%3A0xd2972e1b40d77ba1!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1606828548311!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
-              </div>
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2329.4015804928836!2d-8.463897923457335!3d54.279163172574506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee9a475ad4539%3A0xc0cee64cf9944c56!2sATU%2C%20Sligo!5e0!3m2!1sen!2slv!4v1704026831066!5m2!1sen!2slv" allowfullscreen="" loading="lazy"></iframe>
             </div>
-  
-            <div class="col-md-3">
-              <h4>Quick Links</h4>
-              <ul class="list-unstyled">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-md-3 col-lg-4">
-              <h4>Contact Us</h4>
-              <p>Email: contact@dishdash.com</p>
-              <p>Phone: +1234567890</p>
-              <p>Address: 123 Street, Sligo, Ireland</p>
-            </div>
-  
+          </div>
+
+          <div class="col-md-3">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-4">
+            <h4>Contact Us</h4>
+            <p>Email: contact@dishdash.com</p>
+            <p>Phone: +1234567890</p>
+            <p>Address: 123 Street, Sligo, Ireland</p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"
-      ></script>
-      <script src="custom-js/custom.js"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="custom-js/custom.js"></script>
   </body>
 </html>

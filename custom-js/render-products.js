@@ -5,7 +5,7 @@ fetch('products.json')
   .then(data => {
     data.forEach(product => {
       const colDiv = document.createElement('div');
-      colDiv.classList.add('col-lg-3', 'col-md-6', 'col-6', 'text-center', 'mb-3');
+      colDiv.classList.add('col-lg-3', 'col-md-6', 'col-12', 'text-center', 'mb-3');
 
       const cardDiv = document.createElement('div');
       cardDiv.classList.add('card', 'border-1', 'border-custom', 'primary-background', 'mb-2', 'p-3');
