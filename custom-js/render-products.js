@@ -24,9 +24,16 @@ fetch('products.json')
       const nameHeading = document.createElement('h5');
       nameHeading.textContent = product.name;
 
-      const addToCartBtn = document.createElement('button');
-      addToCartBtn.classList.add('btn', 'custom-btn', 'text-white', 'mt-2');
+      const addToCartBtn = document.createElement('a');
+      addToCartBtn.classList.add('btn', 'custom-btn', 'text-white', 'mt-2', 'addtocart');
       addToCartBtn.textContent = 'Add to Cart';
+  
+      addToCartBtn.addEventListener('click', () => {
+          let total = localStorage.getItem('checkout') || 0;
+          total = parseInt(total) + 1;
+          localStorage.setItem('checkout', total);
+          document.querySelector('#checkout').innerHTML = total;
+      });
 
       cardBody.appendChild(pricePara);
       cardBody.appendChild(nameHeading);
