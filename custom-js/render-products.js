@@ -8,13 +8,13 @@ fetch('products.json')
       colDiv.classList.add('col-lg-3', 'col-md-6', 'col-12', 'text-center', 'mb-3');
 
       const cardDiv = document.createElement('div');
-      cardDiv.classList.add('card', 'border-1', 'border-custom', 'primary-background', 'mb-2', 'p-3');
+      cardDiv.classList.add('card', 'border-1', 'border-custom', 'primary-background', 'mb-2', 'p-3', 'h-100');
 
       const img = document.createElement('img');
       img.classList.add('img-fluid');
       img.src = product.image;
-      img.alt = 'Product Image';
-
+      img.alt = product.alt
+      
       const cardBody = document.createElement('div');
       cardBody.classList.add('card-body');
 
