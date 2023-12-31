@@ -80,3 +80,7 @@ footer p {
 footer h4 {
     color: #FFF2D7;
 }
+
+.carousel-indicators button {
+    background-color: #4A2C2C !important;
+}
