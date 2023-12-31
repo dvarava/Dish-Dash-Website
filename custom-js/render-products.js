@@ -8,7 +8,7 @@ fetch('products.json')
       colDiv.classList.add('col-lg-3', 'col-md-6', 'col-6', 'text-center', 'mb-3');
 
       const cardDiv = document.createElement('div');
-      cardDiv.classList.add('card', 'border-0', 'bg-light', 'mb-2');
+      cardDiv.classList.add('card', 'border-1', 'border-custom', 'primary-background', 'mb-2', 'p-3');
 
       const img = document.createElement('img');
       img.classList.add('img-fluid');
@@ -18,11 +18,11 @@ fetch('products.json')
       const cardBody = document.createElement('div');
       cardBody.classList.add('card-body');
 
-      const pricePara = document.createElement('h6');
-      pricePara.textContent = product.price;
-
-      const nameHeading = document.createElement('h5');
+      const nameHeading = document.createElement('h6');
       nameHeading.textContent = product.name;
+
+      const pricePara = document.createElement('p');
+      pricePara.textContent = product.price;
 
       const addToCartBtn = document.createElement('a');
       addToCartBtn.classList.add('btn', 'custom-btn', 'text-white', 'mt-2', 'addtocart');
@@ -35,8 +35,8 @@ fetch('products.json')
           document.querySelector('#checkout').innerHTML = total;
       });
 
-      cardBody.appendChild(pricePara);
       cardBody.appendChild(nameHeading);
+      cardBody.appendChild(pricePara);
       cardBody.appendChild(addToCartBtn);
       cardDiv.appendChild(img);
       cardDiv.appendChild(cardBody);

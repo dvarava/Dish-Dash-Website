@@ -1,37 +1,42 @@
 [
   {
-    "name": "Product 1",
-    "image": "images/banner.jpg",
-    "price": "$19.99"
+    "name": "Aluminium Casserole Dish",
+    "image": "images/aluminium-casserole-dish.png",
+    "price": "€59.99"
   },
   {
-    "name": "Product 2",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Premium Oak Knives Set",
+    "image": "images/oak-knives-set.png",
+    "price": "€46.99"
   },
   {
-    "name": "Product 3",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Stainless Steel Butter Pan",
+    "image": "images/stainless-steel-butter-pan.png",
+    "price": "€18.99"
   },
   {
-    "name": "Product 4",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Steak Cutting Board",
+    "image": "images/steak-cutting-board.png",
+    "price": "€25.99"
   },
   {
-    "name": "Product 5",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Ceramic Turkish Coffee Pot",
+    "image": "images/turkish-coffee-pot.png",
+    "price": "€29.99"
   },
   {
-    "name": "Product 6",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Stainless Steel Wire Skimmer",
+    "image": "images/stainless-steel-wire-skimmer.png",
+    "price": "€14.99"
   },
   {
-    "name": "Product 7",
-    "image": "images/banner.jpg",
-    "price": "$29.99"
+    "name": "Cast Iron Grill Pan",
+    "image": "images/cast-iron-grill-pan.png",
+    "price": "€49.99"
+  },
+  {
+    "name": "Wooden Chef Rice Paddle",
+    "image": "images/chef-rice-paddle.png",
+    "price": "€8.99"
   }
 ]
