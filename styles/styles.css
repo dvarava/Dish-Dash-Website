@@ -33,8 +33,16 @@ a {
     background-color: #BA494C;
 }
 
+.card-background {
+    background-color: #FFF2D7;
+}
+
 .custom-text {
     color: #4A2C2C;
+}
+
+.border-custom {
+    border-color: #4A2C2C;
 }
 
 .custom-btn {
